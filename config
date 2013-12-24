@@ -150,4 +150,4 @@ bar {
 }
 
 # Background
-exec --no-startup-id feh --bg-scale /home/maayke/bg.jpg
+exec feh --bg-scale /home/maayke/Pictures/bg.jpg
