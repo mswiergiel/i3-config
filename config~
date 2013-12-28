@@ -156,4 +156,4 @@ bar {
 exec feh --bg-scale /home/maayke/Pictures/bg.jpg
 # Launching programs on specific workspaces
 
-#exec i3-msg 'workspace 7; exec /usr/bin/firefox'
+exec i3-msg 'workspace 7; exec /usr/bin/firefox'
