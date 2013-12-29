@@ -154,6 +154,10 @@ bar {
 
 # Background
 exec feh --bg-scale /home/maayke/Pictures/bg.jpg
-# Launching programs on specific workspaces
 
+# System volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 -- +10% && killall -SIGUSR1 i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -- -10% && killall -SIGUSR1 i3status
+
+# Launching programs on specific workspaces
 #exec i3-msg 'workspace 7; exec /usr/bin/firefox'
