@@ -163,7 +163,7 @@ bindsym XF86AudioLowerVolume exec "amixer set Master unmute; amixer -c 0 set Mas
 
 # Launching programs on specific workspaces
 assign [class="^Google-chrome$"] 5
-assign [class="^/opt/ibm/lotus/lotus$"] 6
+
 # Shutdown, reboot, logoff
 set $mode_system System (l) lock, (e) logout, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
