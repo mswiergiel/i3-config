@@ -24,7 +24,10 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+
+# start a urxvt256c
+bindsym $mod+Return exec urxvt256c
 
 # start a Terminator terminal
 #bindsym $mod+Return exec terminator
@@ -163,7 +166,6 @@ bindsym XF86AudioLowerVolume exec "amixer set Master unmute; amixer -c 0 set Mas
 
 # Launching programs on specific workspaces
 assign [class="^Google-chrome$"] 5
-assign [class="^/opt/ibm/lotus/lotus$"] 6
 # Shutdown, reboot, logoff
 set $mode_system System (l) lock, (e) logout, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
