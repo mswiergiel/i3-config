@@ -20,7 +20,7 @@ case $1 in
         ;;
 
     *)
-    echo    "Usage: $0 {lock|logout|reboot|shutdown}"
+    echo    "Usage: $0 {lock|logout|reboot|shutdown}
     exit 2
 
 esac
