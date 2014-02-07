@@ -12,6 +12,9 @@ case $1 in
     logout)
         i3-msg exit
         ;;
+    suspend)
+        lock && systemctl suspend
+        ;;
     reboot)
         systemctl reboot
         ;;
@@ -20,7 +23,7 @@ case $1 in
         ;;
 
     *)
-    echo    "Usage: $0 {lock|logout|reboot|shutdown}"
+    echo    "Usage: $0 {lock|logout|suspend|reboot|shutdown}"
     exit 2
 
 esac
