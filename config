@@ -157,7 +157,7 @@ bar {
 }
 
 # Background
-exec feh --bg-scale /home/maayke/Pictures/bg.jpg
+exec feh --bg-scale ~/Pictures/bg.jpg
 
 # System volume
 bindsym XF86AudioMute exec amixer -q set Master toggle

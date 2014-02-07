@@ -27,10 +27,10 @@ floating_modifier $mod
 #bindsym $mod+Return exec i3-sensible-terminal
 
 # start a urxvt256c
-#bindsym $mod+Return exec urxvt256c
+bindsym $mod+Return exec urxvt256c
 
 # start a Terminator terminal
-bindsym $mod+Return exec terminator
+#bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -102,7 +102,7 @@ bindsym $mod+6 workspace 6:IRC
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+0 workspace 10:Log
 
 
 # move focused container to workspace
