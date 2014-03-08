@@ -100,11 +100,11 @@ bindsym $mod+a focus parent
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2:Mail
 bindsym $mod+3 workspace 3:Shell
-bindsym $mod+4 workspace 4:mutt
+bindsym $mod+4 workspace 4:Code
 bindsym $mod+5 workspace 5:Web
 bindsym $mod+6 workspace 6:IRC
 bindsym $mod+7 workspace 7:VM
-bindsym $mod+8 workspace 8:code
+bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10:Log
 
@@ -113,11 +113,11 @@ bindsym $mod+0 workspace 10:Log
 bindsym $mod+Shift+1 move container to workspace 1
 bindsym $mod+Shift+2 move container to workspace 2:Mail
 bindsym $mod+Shift+3 move container to workspace 3:Shell
-bindsym $mod+Shift+4 move container to workspace 4:mutt
+bindsym $mod+Shift+4 move container to workspace 4:Code
 bindsym $mod+Shift+5 move container to workspace 5:Web
 bindsym $mod+Shift+6 move container to workspace 6:IRC
 bindsym $mod+Shift+7 move container to workspace 7:VM
-bindsym $mod+Shift+8 move container to workspace 8:code
+bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
