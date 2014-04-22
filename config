@@ -27,13 +27,13 @@ floating_modifier $mod
 #bindsym $mod+Return exec i3-sensible-terminal
 
 # start a urxvt256c
-#bindsym $mod+Return exec urxvt256c
+x#bindsym $mod+Return exec urxvt256c
 
 # start a Terminator terminal
 #bindsym $mod+Return exec terminator
 
 # start a Terminology terminal
-bindsym $mod+Return exec terminology
+#bindsym $mod+Return exec terminology
 
 
 # kill focused window
